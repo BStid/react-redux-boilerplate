@@ -1,0 +1,4 @@
+-- UPDATE changetablename
+-- SET column1 = $2, column2= $3, column3 = $4
+-- WHERE id = $1;
+-- SELECT * FROM changetablename;

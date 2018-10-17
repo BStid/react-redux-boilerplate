@@ -1,0 +1,2 @@
+-- INSERT INTO changetablename(column1,column2,column3)
+-- VALUES($1,$2,$3);

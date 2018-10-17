@@ -1,0 +1,6 @@
+-- CREATE TABLE changetablename(
+--     id SERIAL PRIMARY KEY,
+--     column1 VARCHAR(100),
+--     column2 INTEGER,
+--     column3 TEXT
+-- );
