@@ -20,12 +20,12 @@ app.use(
     resave: false,
     saveUninitialized: true,
     cookie: {
-      maxAge: 10000000000
+      maxAge: 1209600000 // two weeks
     }
   })
 );
 
-//Massive Use - - dbInstance call to create a table - -
+//Massive Use - - dbInstance call to create a table also included - -
 /*
 massive(process.env.CONNECTION_STRING)
   .then(dbInstance => {
