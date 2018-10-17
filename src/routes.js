@@ -8,6 +8,11 @@ import { Switch, Route } from "react-router-dom";
 export default (
   <Switch>
     {/* <Route path='/' exact component={Home}/>
-        <Route path='/about' component={About}/> */}
+        <Route path='/about' component={About}/> 
+        <Route path="*" render={() => (
+        <div>
+          <h1>404</h1>
+        </div>
+      )} />*/}
   </Switch>
 );
