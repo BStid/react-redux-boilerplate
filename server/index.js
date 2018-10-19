@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const { json } = require("body-parser");
-const massive = require("massiv");
+const massive = require("massive");
 const axios = require("axios");
 const session = require("express-session");
 const cors = require("cors");
@@ -32,7 +32,7 @@ massive(process.env.CONNECTION_STRING)
     app.set("db", dbInstance);
     // dbInstance
     //   .create_table_here()
-    //   .then(resonse => {
+    //   .then(response => {
     //     console.log(response);
     //   })
     //   .catch(e => console.log(e));
@@ -45,7 +45,7 @@ massive(process.env.CONNECTION_STRING)
 //!!!!!
 //Express.static to join the files to build ---- when ready, run "npm build"
 /*
-app.use(express.static(`${__dirname}/build`));
+app.use(express.static(`${__dirname}/../build`));
 */
 //!!!!!
 

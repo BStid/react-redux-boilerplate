@@ -5,7 +5,6 @@ const UPDATE_SOMETHING = "UPDATE_SOMETHING";
 
 //Create InitialState
 const initialState = {
-  stuff: [],
   actionKey: ""
 };
 
@@ -24,3 +23,11 @@ export function somethingFun(actionKey) {
     payload: actionKey
   };
 }
+
+//axios request - - install promise middleware
+// export function getItems() {
+//   return {
+//     type: GET_ITEMS,
+//     payload: axios.get("http://localhost:3009/api/items")
+//   };
+// }
